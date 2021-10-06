@@ -1,0 +1,18 @@
+.cuadrado {
+    width: 200px;
+    height: 200px;
+}
+
+.circular {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.bordeVerde {
+border: solid green 3px;
+}
+
+.bordeRojo {
+    border: solid red 3px;
+}
