@@ -3,6 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App';
 
+// 1)	Antes de arrancar instalá proptypes en tu proyecto.
+// 2)	Buscá por qué y cuándo proptypes deja de ser parte del core de React.
+
+// 2) Esta librería antes venía incluida de manera nativa en React hasta la versión 15.5. Hoy debemos agregarla de forma independiente a nuestros proyectos con npm:
+// npm install --save prop-types o con npm i prop-types.
+// Coloco una página que complementa info sobre la eliminación de las proptypes que me pareció interesante: https://reactjs.org/blog/2017/04/07/react-v15.5.0.html
+
 
 // // 3)	Completá el objeto correspondiente a las prop types de componente Habitacion:
 
