@@ -26,6 +26,12 @@ import propTypes from "prop-types";
 
 const Avatar = ({direccion, contorno, estado}) => {
 
+    // Avatar.propTypes = {
+    //     direccion: propTypes.string,
+    //     contorno: propTypes.object,
+    //     estado: propTypes.string,
+    // }
+
 // Validaciones.
 // Si la dirección es null muestro la siguiente foto por default sino la que ya viene
 (direccion === null ) ? direccion = "https://randomuser.me/api/portraits/women/99.jpg" : direccion = direccion;
@@ -49,5 +55,6 @@ definoEstilo = estiloAvatar.cuadrado;
         </>
     )
 }
+
 
 export default Avatar;
